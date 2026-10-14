@@ -1,7 +1,7 @@
 
 import Navbar from "./components/navbar";
-import ServiceCards from "./components/servicecards";
 import "./App.css";
+import ServiceCards from "./components/servicecards";
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
           </button>
         </div>
       </main>
-      <ServiceCards />
+      <ServiceCards/>
     </>
   );
 }
